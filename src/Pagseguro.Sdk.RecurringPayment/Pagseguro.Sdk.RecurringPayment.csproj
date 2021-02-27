@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<Authors>victorSantana09</Authors>
+		<Company />
+		<Product>Pagseguro SDK</Product>
+		<Description>Dotnet Core Wrapper for Pagseguro APIs</Description>
+		<RepositoryUrl>https://github.com/victorSantana09/pagseguro-dotnet-sdk</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>pagseguro, uol, dotnet, dotnet core, payment, payment gateway, PagSeguro</PackageTags>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Version>0.0.2</Version>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/victorSantana09/pagseguro-dotnet-sdk</PackageProjectUrl>
+		<PackageIcon>pagseguro-logo.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.7" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="3.1.7" />
+		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+		<PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="Assets\pagseguro-logo.png">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
