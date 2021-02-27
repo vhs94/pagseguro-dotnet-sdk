@@ -10,7 +10,7 @@
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>pagseguro, uol, dotnet, dotnet core, payment, payment gateway, PagSeguro</PackageTags>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Version>0.0.2</Version>
+		<Version>1.0.0</Version>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/victorSantana09/pagseguro-dotnet-sdk</PackageProjectUrl>
