@@ -87,7 +87,7 @@ dotnet add package Pagseguro.Sdk.RecurringPayment
 ```csharp
     var session = await _pagseguroService.NewSession();
 ```
-
+* **_OBS.: Consulte o código para ver as services e seus métodos disponíveis_**
 
 ## Run tests
 
