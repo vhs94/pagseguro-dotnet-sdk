@@ -34,7 +34,7 @@
 
 
 ```
-O Objetivo do projeto é disponibilizar Wrappers via pacote Nuget das APIs do PagSeguro para desenvolvedores .NET Core
+Este projeto disponibiliza Wrappers via pacote Nuget das APIs do PagSeguro para desenvolvedores .NET Core
 ```
 Cada API deverá ter seu pacote correspondente. Atualmente o projeto conta com SDK para as seguintes APIs:
 * [API Pagamento Recorrente](https://dev.pagseguro.uol.com.br/docs/pagamento-recorrente)
